@@ -1,6 +1,9 @@
 ---
 title: "Data import and troubleshoots"
-output: github_document
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r, include = FALSE}
@@ -20,7 +23,7 @@ Tahap terpenting sebelum kita melakukan impor data adalah menentukan alamat dima
 Dalam modul ini Anda akan menggunakan paket `here` untuk menentukan dan menuliskan alamat berkas atau dokumen. Aktifkanlah paket `here` terlebih dahulu dengan menjalankan `library(nama_paket)`!
 
 ```{r}
-library('here')
+library(here)
 ```
 
 Kemudian periksalah alamat direktori utama berada dengan cara menjalankan fungsi `dr_here()`. Mengapa direktori utama terdeteksi dan berada pada alamat tersebut?
